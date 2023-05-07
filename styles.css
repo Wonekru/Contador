@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+
+
+.contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+background-color: #3e8e41;
+}
+
+.green-neon {
+    color: rgb(28, 92, 28);
+    text-shadow: 0 0 10px rgb(39, 246, 39), 0 0 20px rgb(41, 253, 41), 0 0 30px rgb(53, 224, 53), 0 0 40px rgb(48, 209, 48), 0 0 70px green, 0 0 80px green, 0 0 100px green, 0 0 150px green;
+  }
+  
+  .red-neon {
+    color: rgb(98, 40, 40);
+    text-shadow: 0 0 10px rgb(246, 50, 50), 0 0 20px rgb(251, 60, 60), 0 0 30px rgb(244, 47, 47), 0 0 40px rgb(247, 52, 52), 0 0 70px rgb(244, 58, 58), 0 0 80px red, 0 0 100px red, 0 0 150px red;
+  }
+  
